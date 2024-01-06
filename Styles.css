@@ -1,7 +1,7 @@
 /* common shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-primary{
@@ -9,14 +9,23 @@ font-family: 'Roboto', sans-serif;
 }
 
 .primary-button{
+    width: 150px;
+    height: 64px;
     border-radius: 5px;
+    border: 0;
     background: #FD6E0A;
-
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* nav related styles */
 nav{
-  display: flex; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: o 200px;
+
 }
 .nav-title{
     color: #181818;
@@ -24,6 +33,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
@@ -32,4 +42,19 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+
+/* header related styles */
+.header{
+    background-color: #fff2e9;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+}
+.banner-greeting{
+    font-weight: 400;
+    font-size: 45px;
+}
+.banner-name{
+    
 }
